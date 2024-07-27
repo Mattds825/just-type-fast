@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# JustTypeFast
 
-## Getting Started
+A minimal speed typer built with Next js
 
-First, run the development server:
+## Project Scope and Goals
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The Speed Typing Web App is a modern, single-page application designed to help users improve their typing speed and accuracy. The app provides a typing test component immediately upon loading, ensuring that users can start typing with minimal distractions. The main goals of the project are:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **User-Friendly Interface**: Create a modern, intuitive, and responsive design.
+- **Immediate Accessibility**: Ensure users can start the typing test immediately without navigating through a landing page.
+- **Dark Mode**: Default to a dark mode interface for a better user experience and reduced eye strain.
+- **Real-Time Feedback**: Provide real-time typing speed and accuracy feedback.
+- **Interactive Keyboard**: Display an on-screen keyboard that highlights keys as they are pressed, colored according to the correct finger for touch typing.
+- **Comprehensive Settings**: Include a settings component with instructions and a visual guide for finger positioning and corresponding colors.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Typing Test Component**
+   - Displays a random passage for users to type.
+   - Provides a text area for typing input.
+   - Calculates and displays typing speed (words per minute) and accuracy in real-time.
+   - Starts a timer when the user begins typing.
 
-## Learn More
+2. **Keyboard Component**
+   - Shows an on-screen keyboard.
+   - Highlights keys as they are pressed.
+   - Colors keys according to the correct finger for touch typing.
 
-To learn more about Next.js, take a look at the following resources:
+3. **Settings Component**
+   - Accessible via a settings button.
+   - Displays instructions for using the typing test.
+   - Includes a visual guide showing fingers and their corresponding colors.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. **Dark Mode**
+   - The app uses dark mode by default for a modern and comfortable user experience.

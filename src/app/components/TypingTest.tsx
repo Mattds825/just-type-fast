@@ -142,9 +142,9 @@ const TypingTest: React.FC = () => {
           onClick={handleRestart}>Restart</Button>
 
       </div>
-      <div className="mt-4">
-        <p>Words per minute: {wpm.toFixed(2)}</p>
-        <p>Accuracy: {accuracy.toFixed(2)}%</p>
+      <div className="mt-4 text-center">
+        <p className="text-sm">Words per minute: {wpm.toFixed(2)}</p>
+        <p className="text-sm">Accuracy: {accuracy.toFixed(2)}%</p>
       </div>
     </div>
   );

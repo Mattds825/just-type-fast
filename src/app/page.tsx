@@ -1,7 +1,10 @@
+import React from "react";
+import TypingTest from "./components/TypingTest";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hello
+    <main className="min-h-screen flex items-center justify-center bg-gray-900 text-white">
+      <TypingTest />
     </main>
   );
 }
